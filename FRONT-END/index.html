@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Lisboa - Dev Full Stack</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-1">Lisboa Dev</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex text-center">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-mim" class="nav-link">
+                            <i class="bi bi-emoji-laughing-fill me-1"></i>
+                            Sobre mim</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#formacao" class="nav-link">
+                            <i class="bi bi-mortarboard"></i>
+                            Formação</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#projetos" class="nav-link">
+                            <i class="bi bi-briefcase-fill"></i>
+                            Projetos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me"></i>
+                            Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-mim">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h2 class="section-title text-center">Sobre mim</h2>
+                            <p class="text-center">
+                                Me chamo Gabriel Pereira Lisboa, tenho atualmente 21 anos, Brasileiro e natural de São Paulo - SP, morando em Fortaleza - CE.
+                                Sou estudante de Engenharia de Software cursando no 1º semestre. Tenho aptidão com programação Back-End mais especificamente com a linguagem Java, 
+                                mas também gosto bastante do contato com o Front-End tendo alguns conhecimentos básicos em HTML 5, CSS, JavaScript e o framework Bootstrap. Ainda 
+                                aprendendo sobre ambas as partes fundamentais da programação, atualmente estou estudando framework
+                                como SpringBoot para a linguagem Java e me aprimorando os conhecimentos com tecnologias front-end.
+                            </p>
+                        </div>
+                        <div class="col-md-5">
+                            <img class="d-block w-100 rounded" src="./imgs/images/img-lindo.jpg" alt="foto-minha" id="fotinha">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-1 pb-5" id="formacao">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Formação</h2>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-4">
+                        <img class="w-100 rounded" src="./imgs/banco-dados.png" alt="enginer" style="max-width: 416px; max-height: 202px;">
+                        <h3 class="section-title mt-3 fs-4"><i class="bi bi-mortarboard"></i> Engenharia de Software - Bacharelado</h3>
+                        <p>Universidade União das Américas Descomplica<br>Data de Início: 22/01/2024 <br>Data prévia termino: 22/01/2028</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="w-100 rounded" src="./imgs/JAVA.png" alt="java-logo">
+                        <h3 class="section-title mt-3 fs-4"><i class="bi bi-mortarboard"></i> Curso Full-Stack Java - Profissionalizante</h3>
+                        <p>Escola Britânica de Artes Criativas e Tecnologias <br>Data de Início: //01/2024 <br>Data prévia termino: 22/01/2028</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="w-100 rounded" src="./imgs/full-stack.jpg" alt="curso-danki-code" style="max-width: 416px; max-height: 202px;">
+                        <h3 class="section-title mt-3 fs-4"><i class="bi bi-mortarboard"></i> Curso Web Development - Profissionalizante</h3>
+                        <p>Danki Code <br>Data de Início: 25/06/2021 <br>Data término: 15/05/2022</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Projetos</h2>
+                    <div class="row" id="desalinhada">
+                        <aside class="col-md-2">
+                            <nav class="nav nav-pills flex-column" id="nav-buttons">
+                                <button data-bs-toggle="tab" data-bs-target="#projetos-back" type="button" class="nav-link text-center fw-bold active">Projetos Back End</button>
+                                <button data-bs-toggle="tab" data-bs-target="#projetos-front" type="button" class="nav-link text-center fw-bold">Projetos Front End</button>
+                                <button data-bs-toggle="tab" data-bs-target="#projetos-full" type="button" class="nav-link text-center fw-bold">Projetos FullStack</button>
+                            </nav>
+                        </aside>
+                        <div class="col-md-10">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="projetos-back">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./imgs/JAVA.png" alt="projeto-back">
+                                            <h5 class="mt-2 text-center">Projeto Criação de API Restful</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./imgs/JAVA.png" alt="projeto-back">
+                                            <h5 class="mt-2 text-center">Projeto Criação de API Restful</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./imgs/JAVA.png" alt="projeto-back">
+                                            <h5 class="mt-2 text-center">Projeto Criação de API Restful</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./imgs/JAVA.png" alt="projeto-back">
+                                            <h5 class="mt-2 text-center">Projeto Criação de API Restful</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="projetos-front">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./imgs/HTML CSS JS.jpg" alt="projeto-back">
+                                            <h5 class="mt-2">Layout de Desing para a empresa Norlimp Serviços</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./imgs/HTML CSS JS.jpg" alt="projeto-back">
+                                            <h5 class="mt-2">Layout de Desing para a empresa Norlimp Serviços</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./imgs/HTML CSS JS.jpg" alt="projeto-back">
+                                            <h5 class="mt-2">Layout de Desing para a empresa Norlimp Serviços</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./imgs/HTML CSS JS.jpg" alt="projeto-back">
+                                            <h5 class="mt-2">Layout de Desing para a empresa Norlimp Serviços</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="projetos-full">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./imgs/full-stack.jpg" alt="projeto-back">
+                                            <h5 class="mt-2">Aplicação Full-Stack com tela e cadastro no Banco de Dados</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./imgs/full-stack.jpg" alt="projeto-back">
+                                            <h5 class="mt-2">Aplicação Full-Stack com tela e cadastro no Banco de Dados</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./imgs/full-stack.jpg" alt="projeto-back">
+                                            <h5 class="mt-2">Aplicação Full-Stack com tela e cadastro no Banco de Dados</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./imgs/full-stack.jpg" alt="projeto-back">
+                                            <h5 class="mt-2">Aplicação Full-Stack com tela e cadastro no Banco de Dados</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pb-4"> Fale Comigo</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form class="formulario">
+                            <div>
+                                <input class="form-control" type="text" id="nome" required placeholder="Nome">
+                            </div>
+                            <div class="mt-3">
+                                <input placeholder="E-mail" class="form-control" type="email" id="email" required>
+                            </div>
+                            <div class="pb-4 mt-3">
+                                <input class="form-control" type="tel" id="telefone" placeholder="Telefone">
+                            </div>
+                            <button id="submit-form" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-telephone"></i>
+                                Telefone p/contato</h3>
+                            <p class="telefone-disk">(85)99852-3779</p>
+                        </div>
+                        <div class="row">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-envelope"></i>
+                                E-mail p/contato</h3>
+                            <a class="link-email" href="">gabriel.lisboadv@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        DESENVOLVIDO POR GABRIEL PEREIRA LISBOA
+    </footer>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

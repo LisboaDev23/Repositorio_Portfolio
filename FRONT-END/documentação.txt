@@ -1,0 +1,13 @@
+Definições sobre o escopo do projeto    
+
+    HEADER{
+    - No header estou passando uma respectiva classe onde direi para o bootstrap que meu cabeçalho será expandível com
+    definição de tamanho lg com stick top para que o header acompanhe a rolagem da página.
+    - h1 definido com a classe nav-brand para ser o nome destaque do nosso cabeçalho 
+    - No nav, teremos a nossa lista não ordenada onde na tag ul utilizamos a classe nav nav-pills para informarmos ao 
+    bootstrap que os itens da lista tenham aparência de um botão.
+    -Nos icones <i>, estamos inserindo icones e adicionamos um margin-end para dar espaçamento entre o ícone e o texto
+    
+    - Para responsividade, adicionamos um botão com a classe navbar-toggler para ficar com aparência transpartente de ícone
+    e dentro temos um span com a classe navbar-toggler-icon onde ele irá aparecer somente quando o tamanho da tela for diminuindo
+    }

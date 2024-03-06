@@ -1,0 +1,81 @@
+body{
+    font-family: "Anta", sans-serif;
+}
+
+.navbar{
+    background-color: black;
+}
+.navbar-brand{
+    color: chartreuse;
+}
+.nav .nav-link.active{
+    background-color: chartreuse;
+    color: black;
+}
+.nav .nav-link,
+.navbar-brand:hover{
+    color:chartreuse;
+}
+.navbar-toggler{
+    background-color: chartreuse;
+}
+#sobre-mim,
+#formacao,
+#projetos,
+#contato{
+    background-color: black;
+    color: chartreuse;
+}
+#fotinha {
+    max-height: 320px;
+    height: 100%;
+}
+
+#submit-form{
+    background-color: chartreuse;
+}
+#submit-form:hover{
+    background-color: darkgreen;
+    color: aliceblue;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links li a{
+    text-decoration: none;
+    color: chartreuse;
+}
+.link-email{
+    color: chartreuse;
+    text-decoration: none;
+}
+.link-email:hover,
+.telefone-disk:hover,
+.social-links li a:hover{
+    color: darkgreen;
+}
+
+#nav-buttons button:hover{
+    background-color: darkgreen;
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+    #desalinhada{
+        padding-right: 0;
+    }
+    form {
+        margin-bottom: 25px;
+    }
+}
+footer{
+    background-color: chartreuse;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
